@@ -2,4 +2,4 @@
 
 A simple guessing game play by two player
 
-replit link:
+replit link: https://numberguessing-game.ackerdev.repl.co/
