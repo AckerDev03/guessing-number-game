@@ -9,7 +9,7 @@ console.log(`Welcome to Number Guessing Game ${playerName}`);
 
 // For
 
-for (let i = 2; i <= 10; i++){
+for (let i = 1; i <= 10; i++){
     let numGuess = Math.floor(Math.random() * i) + 1;
 
     let userGuess = parseInt(prompt(`Enter number between 1 and ${i}`));
@@ -27,6 +27,7 @@ for (let i = 2; i <= 10; i++){
 
         if (point === 0) {
             console.log(`Game Over!!!!`);
+          
             break;
         }
 
